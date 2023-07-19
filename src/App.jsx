@@ -12,10 +12,7 @@ function App() {
   useEffect(() => {
 
     function onScroll() {
-      // console.log(window.document.body.offsetHeight)
-      // console.log(window.scrollY)
       if (window.innerHeight + window.scrollY >= window.document.body.offsetHeight - 120) {
-
         setCount(count + 50)
       }
     }
